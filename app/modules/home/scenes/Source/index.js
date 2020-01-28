@@ -3,7 +3,7 @@ import {FlatList, RefreshControl, ActivityIndicator} from 'react-native';
 
 import {connect} from 'react-redux';
 
-import NewsItem from "../../components/NewsItem"
+import NewsItem from "../../NewsItem/index"
 
 import {actions as home} from "../../index"
 const { getHeadlinesBySource } = home;
